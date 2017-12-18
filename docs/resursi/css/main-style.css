@@ -8781,7 +8781,7 @@ a.text-light:hover {
 }
 
 .text-dark {
-    color: #5b5b5a !important;
+    color: #212121 !important;
 }
 
 a.text-dark:focus,
@@ -8958,6 +8958,25 @@ a.text-dark:hover {
     background-color: #2e2e2d;
     color: #fff;
 }
+
+/* Zemgales projekts pielāgotie stili */
+
+.services,
+.hero,
+.cta,
+footer {
+    padding-top: 8vh;
+    padding-bottom: 8vh
+}
+.service-box {
+    background-color: #f9f8f6;
+}
+
+.service-box--text {
+    max-width: 50vw;
+    padding: 8.35rem 3rem;
+}
+
 
 @media print {
     *,
