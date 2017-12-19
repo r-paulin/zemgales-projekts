@@ -377,18 +377,18 @@ h6,
     margin-bottom: 0.625rem;
     font-family: inherit;
     font-weight: 400;
-    line-height: 0.875;
+    line-height: 0.9725;
     color: inherit;
 }
 
 h1,
 .h1 {
-    font-size: 4.25rem;
+    font-size: 3.525rem;
 }
 
 h2,
 .h2 {
-    font-size: 3.5rem;
+    font-size: 3.125rem;
 }
 
 h3,
@@ -2681,6 +2681,28 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #fd151b;
     border-color: #fd151b;
+}
+
+
+.btn-facebook {
+    color: #ffffff;
+    background-color: #3B5998;
+    border-color: #36518B
+}
+
+.btn-facebook:hover {
+    color: #ffffff;
+    background-color: #36518B;
+    border-color: #2B416F;
+    -webkit-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease
+}
+
+.btn-facebook:focus,
+.btn-facebook.focus {
+    -webkit-box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.65);
+            box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.65);
 }
 
 .btn-outline-light {
@@ -8956,7 +8978,7 @@ a.text-dark:hover {
 
 .swatch-900 {
     background-color: #2e2e2d;
-    color: #fff;
+    color: #fff
 }
 
 /* Zemgales projekts pielāgotie stili */
@@ -8968,13 +8990,37 @@ footer {
     padding-top: 8vh;
     padding-bottom: 8vh
 }
+
 .service-box {
-    background-color: #f9f8f6;
+    background-color: #f9f8f6
 }
 
 .service-box--text {
-    max-width: 50vw;
-    padding: 8.35rem 3rem;
+    padding: 9.625rem 3rem
+}
+
+@media screen and (max-width: 768px) {
+    .service-box--text {
+        max-width: 6.625rem 3rem
+    }
+}
+
+.text-dark .service-title {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .service-box {
+        max-width: calc(100% - 25rem)
+    }
+}
+
+a.text-dark:hover {
+    color: #f2b632 !important;
+    text-decoration: none;
+    -webkit-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease
 }
 
 
@@ -8984,55 +9030,55 @@ footer {
     *::after {
         text-shadow: none !important;
         -webkit-box-shadow: none !important;
-        box-shadow: none !important;
+        box-shadow: none !important
     }
     a,
     a:visited {
         text-decoration: underline;
     }
     abbr[title]::after {
-        content: " (" attr(title) ")";
+        content: " (" attr(title) ")"
     }
     pre {
-        white-space: pre-wrap !important;
+        white-space: pre-wrap !important
     }
     pre,
     blockquote {
         border: 1px solid #999;
-        page-break-inside: avoid;
+        page-break-inside: avoid
     }
     thead {
-        display: table-header-group;
+        display: table-header-group
     }
     tr,
     img {
-        page-break-inside: avoid;
+        page-break-inside: avoid
     }
     p,
     h2,
     h3 {
         orphans: 3;
-        widows: 3;
+        widows: 3
     }
     h2,
     h3 {
-        page-break-after: avoid;
+        page-break-after: avoid
     }
     .navbar {
-        display: none;
+        display: none
     }
     .badge {
-        border: 1px solid #000;
+        border: 1px solid #000
     }
     .table {
-        border-collapse: collapse !important;
+        border-collapse: collapse !important
     }
     .table td,
     .table th {
-        background-color: #fff !important;
+        background-color: #fff !important
     }
     .table-bordered th,
     .table-bordered td {
-        border: 1px solid #ddd !important;
+        border: 1px solid #ddd !important
     }
 }
