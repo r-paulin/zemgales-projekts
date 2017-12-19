@@ -383,7 +383,7 @@ h6,
 
 h1,
 .h1 {
-    font-size: 3.525rem;
+    font-size: 3.325rem;
 }
 
 h2,
@@ -2702,7 +2702,7 @@ fieldset[disabled] a.btn {
 .btn-facebook:focus,
 .btn-facebook.focus {
     -webkit-box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.65);
-            box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.65);
+    box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.65);
 }
 
 .btn-outline-light {
@@ -8991,6 +8991,17 @@ footer {
     padding-bottom: 8vh
 }
 
+@media screen and (max-width: 768px) {
+    .services,
+    .hero,
+    .cta
+        {
+        padding-top: 4vh;
+        padding-bottom: 4vh
+    }
+}
+
+
 .service-box {
     background-color: #f9f8f6
 }
@@ -9001,7 +9012,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .service-box--text {
-        max-width: 6.625rem 3rem
+        padding: 6.625rem 3rem
     }
 }
 
@@ -9023,6 +9034,11 @@ a.text-dark:hover {
     transition: 200ms ease
 }
 
+.nav-label {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
 
 @media print {
     *,
