@@ -9004,6 +9004,22 @@ ul.our-services {
     list-style-type: none;
 }
 
+.link-big {
+    border-bottom: 2px solid #f2b632;
+    color: #2e2e2d;
+    font-size: 20px;
+    -webkit-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease;
+}
+
+.link-big:hover {
+    text-decoration: none;
+    border-bottom: none;
+    -webkit-transition: 200ms ease;
+    -o-transition: 200ms ease;
+    transition: 200ms ease;
+}
 
 .our-services li:before {
     content: "";
