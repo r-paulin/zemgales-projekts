@@ -9121,6 +9121,9 @@ a.text-dark:hover {
     }
 }
 
+.contact-info {}
+
+
 @media print {
     *,
     *::before,
