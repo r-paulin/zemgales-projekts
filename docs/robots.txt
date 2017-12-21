@@ -1,4 +1,4 @@
-﻿User-Agent: *
+User-Agent: *
 Disallow: 
 
 Sitemap: https://zemgalesprojekts.com/sitemap.xml
